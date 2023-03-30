@@ -1,0 +1,32 @@
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  flex: 0.18;
+  color: #B4B4B4;
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.coreOptions {
+  margin-top: 20px;
+}
+
+.coreOptions > p{
+  padding-left: 25px;
+  font-size: 0.8rem;
+}
+
+.list {
+  padding: 10px 25px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+}
+
+.sidebarIcon {
+  padding-right: 10px;
+}
+
+.list:hover {
+  background-color: rgb(53, 78, 90);
+}
